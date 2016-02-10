@@ -1,0 +1,19 @@
+# compiled sources #
+####################
+*.class
+*.o
+*.so
+*.pyc
+
+# Editing tools and IDEs #
+##########################
+*.iml
+*.swp
+*~
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Trashes
