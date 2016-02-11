@@ -6,6 +6,9 @@ fi
 # External plugins (initialized before)
 source ~/.zsh/plugins_before.zsh
 
+# Environment variables and exports
+source ~/.zsh/env.sh
+
 # Settings
 source ~/.zsh/settings.zsh
 
