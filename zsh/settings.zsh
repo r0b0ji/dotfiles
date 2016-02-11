@@ -75,6 +75,8 @@ bindkey -v
 # Movement
 bindkey -a 'gg' beginning-of-buffer-or-history
 bindkey -a 'G' end-of-buffer-or-history
+bindkey "^A" beginning-of-line
+bindkey "^E" end-of-line
 # Undo
 bindkey -a 'u' undo
 bindkey -a '^R' redo
@@ -83,7 +85,6 @@ bindkey -a '^V' edit-command-line
 # Backspace
 bindkey '^?' backward-delete-char
 bindkey '^H' backward-delete-char
-
 # Use incremental search
 bindkey "^R" history-incremental-search-backward
 #}}}

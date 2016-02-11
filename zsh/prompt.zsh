@@ -3,6 +3,11 @@
 # RPR_SHOW_USER=(true, false) - show username in rhs prompt
 # RPR_SHOW_HOST=(true, false) - show host in rhs prompt
 
+# Nice prompt from office
+#PROMPT_COLOR=${PROMPT_COLOR:-cyan}       # Set the prompt color; defaults to cyan
+#PS1="%{${fg[$PROMPT_COLOR]}%}%B%n@%m] %b%{${fg[default]}%}"   # a nice colored prompt
+#RPROMPT="%{${fg[$PROMPT_COLOR]}%}%B%(7~,.../,)%6~%b%{${fg[default]}%}"
+
 # Set custom prompt
 
 # Allow for variable/function substitution in prompt
