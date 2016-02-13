@@ -7,7 +7,7 @@ fi
 source ~/.zsh/plugins_before.zsh
 
 # Environment variables and exports
-source ~/.zsh/env.sh
+#source ~/.zsh/env.sh
 
 # Settings
 source ~/.zsh/settings.zsh
